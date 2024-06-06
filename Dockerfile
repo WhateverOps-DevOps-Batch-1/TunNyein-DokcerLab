@@ -23,7 +23,6 @@
 
 
 
-
 FROM node:latest as build
 
 WORKDIR /app
@@ -32,7 +31,7 @@ COPY . /app/
 
 RUN npm install
 
-From node:20.14-alpine
+FROM node:20.14-alpine
 
 WORKDIR /app
 
